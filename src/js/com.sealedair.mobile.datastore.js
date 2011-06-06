@@ -6,9 +6,9 @@
 
 var theDomain = document.domain;
 if( theDomain === 'localhost')
-	{ mobilens.hostname = 'https://sapecomdev.sealedair.com:443' }
+	{ mobilens.hostname = 'https://sapecomdev.sealedair.com:443'; }
 else
-	{ mobilens.hostname = 'https://'+theDomain+':443' }
+	{ mobilens.hostname = 'https://'+theDomain+':443'; }
 
 
 
